@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="seller-interface">
+        <h2>Seller Interface</h2>
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name">
+        <label for="product-price">Product Price:</label>
+        <input type="number" id="product-price">
+        <button onclick="addOrUpdateProduct()">Add/Update Product</button>
+    </div>
+    
+    <div id="purchaser-interface">
+        <h2>Purchaser Interface</h2>
+        <div id="products"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="choose-role">
+        <h2>Choose Your Role</h2>
+        <button onclick="redirectTo('seller')">Seller</button>
+        <button onclick="redirectTo('purchaser')">Purchaser</button>
+    </div>
+
+    <script>
+        function redirectTo(role) {
+            if (role === 'seller') {
+                window.location.href = 'seller.html';
+            } else if (role === 'purchaser') {
+                window.location.href = 'purchaser.html';
+            }
+        }
+    </script>
+</body>
+</html>
+

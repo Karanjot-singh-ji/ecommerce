@@ -1,0 +1,46 @@
+/* #seller-interface, #purchaser-interface {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+} */
+
+
+#choose-role {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#seller-interface, #purchaser-interface {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
